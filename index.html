@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Устройство болида Формулы-1</title>
+    <style>
+        /* Общие стили для гоночного настроения */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        /* Шапка сайта */
+        header {
+            background: linear-gradient(135deg, #e10600, #960000);
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* Контейнер для содержания */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Блок для главной вертикальной картинки-чертежа */
+        .main-image-block {
+            background-color: #262626;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            text-align: center;
+            border: 1px solid #444;
+        }
+
+        .main-image-block img {
+            max-width: 100%;
+            height: auto;
+            max-height: 600px; /* Ограничиваем высоту, чтобы вертикальное фото смотрелось аккуратно */
+            border-radius: 4px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .image-caption {
+            font-size: 0.9rem;
+            color: #aaa;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        /* Стили для карточек-разделов */
+        .section-card {
+            background-color: #262626;
+            border-left: 5px solid #e10600;
+            margin-bottom: 30px;
+            padding: 25px;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        .section-card h2 {
+            color: #e10600;
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+
+        /* Выделение важных фактов */
+        .fact-box {
+            background-color: #333333;
+            border: 1px dashed #e10600;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 4px;
+        }
+
+        .fact-box strong {
+            color: #ff4d4d;
+        }
+
+        /* Подвал */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0f0f0f;
+            font-size: 0.9rem;
+            color: #888;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Устройство болида Формулы-1</h1>
+        <p>Школьный проект об устройстве самых быстрых машин на планете</p>
+    </header>
+
+    <div class="container">
+
+        <!-- НАЧАЛО БЛОКА С КАРТИНКОЙ-ЧЕРТЕЖОМ -->
+        <div class="main-image-block">           
+            <img src="f1pic.jpg" alt="Чертеж болида Формулы-1">
+            <div class="image-caption">Чертеж болида Формулы-1 </div>
+        </div>
+        <!-- КОНЕЦ БЛОКА С КАРТИНКОЙ -->
+
+        <!-- Раздел 1 -->
+        <div class="section-card">
+            <h2>💨 1. Аэродинамика</h2>
+            <p>🕳️ Прижимная сила: Это главная цель всей аэродинамики Ф1. В отличие от самолета, который воздух поднимает вверх, детали болида прижимают машину к асфальту. Благодаря этому болид может проходить повороты на безумной скорости и не вылетать с трассы.
+📐 Переднее крыло: Самая важная деталь для управления воздухом. Оно первым встречает поток ветра, рассекает его и направляет дальше — к колесам, мотору и под днище, чтобы машина идеально слушалась руля.
+⚡ Заднее крыло (Спойлер): Создает мощную прижимную силу на задние колеса, чтобы они не буксовали. На нем установлена подвижная планка — система DRS. На прямых участках пилот может открыть крыло кнопкой на руле, снизить сопротивление воздуха и обогнать соперника на высокой скорости.
+🌱 Эффект земли (Ground Effect): Днище болида имеет особую форму со скрытыми каналами (трубками Вентури). Воздух под машиной мчится с огромной скоростью, создавая под ней вакуум. В итоге болид буквально присасывает к дороге мощной невидимой силой.
+</p>
+            <div class="fact-box">
+                <strong>Интересный факт:</strong> На скорости выше 150 км/ч болид генерирует столько прижимной силы, что теоретически мог бы ехать по потолку туннеля вверх ногами.
+            </div>
+        </div>
+
+        <!-- Раздел 2 -->
+        <div class="section-card">
+            <h2>⚙️ 2. Двигатель</h2>
+            <p>• 🏎️ ДВС (Двигатель внутреннего сгорания): Турбированный мотор V6 объемом всего 1.6 литра. По объему он такой же, как в обычной городской легковушке, но за счет огромных оборотов (до 15 000 в минуту), прочных материалов и мощной турбины один только этот блок выдает около 700 лошадиных сил.
+⚛️ MGU-K (Мотор-генератор кинетической энергии): Эта система подключена к задней оси болида. Когда пилот нажимает на тормоз, MGU-K работает как генератор: он собирает энергию торможения и превращает её в электричество, заряжая батарею. При разгоне этот же прибор превращается в мощный электромотор, добавляя машине еще 160 лошадиных сил.
+🔥 MGU-H (Мотор-генератор тепловой энергии): Самый сложный узел. Он соединен с турбиной и собирает тепловую энергию выхлопных газов. Эта система не дает турбине «задерживать» обороты (убирает турбояму) и постоянно подзаряжает батарею, даже когда гонщик просто жмет на газ.
+🔋 Батарея (Energy Store): Специальный литий-ионный аккумулятор весом около 20–25 кг. Он собирает энергию от MGU-K и MGU-H. Пилот может активировать накопленный заряд кнопкой на руле (например, для обгона), получая мощный электрический пинок к скорости.
+</p>
+        </div>
+
+        <!-- Раздел 3 -->
+        <div class="section-card">
+            <h2>🚨 3. Безопасность и Кокпит</h2>
+            <p>Кокпит — это рабочее место пилота. Самые заметные детали здесь —💺 Анатомическое сиденье: Кресло пилота отливается из углепластика строго по форме его тела. В нем сидят почти полулежа, а пристегивают гонщика жесткими 6-точечными ремнями безопасности, как в истребителе.
+🕹️ Высокотехнологичный руль: Это главный компьютер болида стоимостью как хорошая квартира. На нем расположено около 25 кнопок, переключателей и цветной экран. Пилот прямо на ходу меняет настройки мотора, баланс тормозов и общается с инженерами.
+🛡️ Капсула выживания (Монокок): Сам кокпит — это сверхпрочная углепластиковая коробка. Она рассчитана так, чтобы остаться целой и защитить пилота даже при страшном ударе о стену на скорости 300 км/ч.
+🛟 Система Halo: Титановая дуга безопасности над головой гонщика. Она весит всего 9 кг, но может выдержать вес двухэтажного автобуса, защищая голову от летящих колес и обломков других машин.
+ </p>
+
+        </div>
+
+        <!-- Раздел 4 -->
+        <div class="section-card">
+            <h2>🛞 4. Шины и Тормоза</h2>
+            <p>Шины — это ключевые элементы сцепления. В Ф1 используются: 🔴 Мягкие (Soft) — самые быстрые, но быстро стираются. Нужны для максимальной скорости на короткое время.
+🟡 Средние (Medium) — универсальный вариант. Хорошая скорость и средняя прочность, подходят для большинства кругов гонки.
+⚪ Жесткие (Hard) — самые прочные и долговечные шины. Едут чуть медленнее, но выдерживают огромную дистанцию без замены.
+🟢 Промежуточные (Intermediate) — шины для легкого дождя или подсыхающей трассы. Канавки на них отводят небольшую влагу.
+🔵 Дождевые (Wet) — созданы для сильного ливня и глубоких луж. Спасают болид от скольжения по воде, выбрасывая тонны брызг в секунду.
+ Они работают эффективно, только когда прогреты до 100°C.</p>
+            <p>Тормоза сделаны из карбона. Они способны остановить болид с 300 км/ч до нуля всего за 4 секунды, разогреваясь при этом до <strong>1000°C</strong> (и светясь в темноте красным).</p>
+        </div>
+
+    </div>
+<!-- ================= НАЧАЛО БЛОКА ОЦЕНОК ================= -->
+<div class="section-card" style="text-align: center;">
+    <h2 id="secretHeader" style="cursor: default; user-select: none;">📊 Оцените мой проект!</h2>
+    <p>Нажмите на эмодзи, чтобы оставить свой голос:</p>
+    
+    <div style="display: flex; justify-content: center; gap: 25px; margin: 20px 0;">
+        <!-- Кнопка Лайк -->
+        <button id="likeBtn" style="background: #2d2d2d; border: 2px solid #444; color: white; padding: 12px 25px; font-size: 1.5rem; border-radius: 8px; cursor: pointer; transition: 0.2s;">
+            👍 <span id="likeCount" style="margin-left: 8px; font-weight: bold; color: #4caf50;">0</span>
+        </button>
+
+        <!-- Кнопка Огонь -->
+        <button id="fireBtn" style="background: #2d2d2d; border: 2px solid #444; color: white; padding: 12px 25px; font-size: 1.5rem; border-radius: 8px; cursor: pointer; transition: 0.2s;">
+            🔥 <span id="fireCount" style="margin-left: 8px; font-weight: bold; color: #ff9800;">0</span>
+        </button>
+
+        <!-- Кнопка Дизлайк -->
+        <button id="dislikeBtn" style="background: #2d2d2d; border: 2px solid #444; color: white; padding: 12px 25px; font-size: 1.5rem; border-radius: 8px; cursor: pointer; transition: 0.2s;">
+            👎 <span id="dislikeCount" style="margin-left: 8px; font-weight: bold; color: #f44336;">0</span>
+        </button>
+    </div>
+</div>
+
+<script>
+    
+    let votes = { likes: 23, fires: 16, dislikes: 0 };
+    let clickCount = 0;
+
+    function loadVotes() {
+        const savedVotes = localStorage.getItem('f1_project_votes');
+        if (savedVotes) {
+            votes = JSON.parse(savedVotes);
+        }
+        updateDisplay();
+        highlightActiveButton();
+    }
+
+    function updateDisplay() {
+        document.getElementById('likeCount').innerText = votes.likes;
+        document.getElementById('fireCount').innerText = votes.fires;
+        document.getElementById('dislikeCount').innerText = votes.dislikes;
+    }
+
+    function saveVotes() {
+        localStorage.setItem('f1_project_votes', JSON.stringify(votes));
+        updateDisplay();
+    }
+
+    function handleVote(voteType) {
+        const previousVote = localStorage.getItem('my_current_vote');
+
+        if (previousVote === voteType) {
+            alert('Вы уже отдали свой голос за этот вариант!');
+            return;
+        }
+
+        if (previousVote) {
+            votes[previousVote]--;
+        }
+
+        votes[voteType]++;
+        localStorage.setItem('my_current_vote', voteType);
+
+        saveVotes();
+        highlightActiveButton();
+    }
+
+    document.getElementById('likeBtn').addEventListener('click', () => handleVote('likes'));
+    document.getElementById('fireBtn').addEventListener('click', () => handleVote('fires'));
+    document.getElementById('dislikeBtn').addEventListener('click', () => handleVote('dislikes'));
+
+    function highlightActiveButton() {
+        const currentVote = localStorage.getItem('my_current_vote');
+        
+        document.getElementById('likeBtn').style.borderColor = '#444';
+        document.getElementById('fireBtn').style.borderColor = '#444';
+        document.getElementById('dislikeBtn').style.borderColor = '#444';
+
+        if (currentVote === 'likes') document.getElementById('likeBtn').style.borderColor = '#4caf50';
+        if (currentVote === 'fires') document.getElementById('fireBtn').style.borderColor = '#ff9800';
+        if (currentVote === 'dislikes') document.getElementById('dislikeBtn').style.borderColor = '#f44336';
+    }
+
+    document.getElementById('secretHeader').addEventListener('click', () => {
+        clickCount++;
+        if (clickCount === 5) {
+            clickCount = 0; 
+            let password = prompt('Введите пароль создателя для сброса голосов:');
+            
+            if (password === '1111') { 
+                votes = { likes: 0, fires: 0, dislikes: 0 };
+                localStorage.removeItem('my_current_vote'); 
+                saveVotes();
+                highlightActiveButton();
+                alert('Счетчики успешно обнулены!');
+            } else if (password !== null) {
+                alert('Неверный пароль!');
+            }
+        }
+        setTimeout(() => { clickCount = 0; }, 2000);
+    });
+
+    loadVotes();
+</script>
+<!-- ================= КОНЕЦ БЛОКА ОЦЕНОК ================= -->
+
+    <footer>
+        <p>Сайт сделал ученик школы № 1505, 8-П класса, Пардилов Эльвин.</p>
+    </footer>
+
+</body>
+</html>
+
+                        
